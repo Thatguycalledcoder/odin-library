@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Haven</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Library Haven</h1>
+    </header>
+    <main>
+        <dialog>
+            <h2>Add a new book</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+                <label for="pages">Number of Pages:</label>
+                <input type="text" id="pages" name="pages">
+                <label for="status">Have you read this book?</label>
+                <input type="checkbox" name="status" id="status">
+                <button type="submit" id="add-book">Add book +</button>
+            </form>
+        </dialog>
+        <button>ADD BOOK</button>
+        <table>
+            <thead>
+                <td>Book Name</td>
+                <td>Author</td>
+                <td>Pages</td>
+                <td>Status</td>
+                <td>Actions</td>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+</body>
+</html>
